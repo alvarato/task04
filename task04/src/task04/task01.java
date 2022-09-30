@@ -2,12 +2,12 @@ package task04;
 
 public class task01 {
 	 public static void main(String[] args) {
-		 int a = 5;
-		 int b = 3;
+		 final int A = 5;
+		 final int B = 3;
 		 
-		 System.out.println(a+b);
-		 System.out.println(a-b);
-		 System.out.println(a*b);
-		 System.out.println(a%b);
+		 System.out.println(A+B);
+		 System.out.println(A-B);
+		 System.out.println(A*B);
+		 System.out.println(A%B);
 		 }
 }

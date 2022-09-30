@@ -2,25 +2,25 @@ package task04;
 
 public class task03 {
 	public static void main(String[] args) {
-		int x = 8;
-		int y = 6;
-		double n = 3.45;
-		double m = 12.50;
-		System.out.println(x+y);
-		System.out.println(x-y);
-		System.out.println(x*y);
-		System.out.println(x/y);
-		System.out.println(x%y);
-		System.out.println(n+m);
-		System.out.println(n-m);
-		System.out.println(n*m);
-		System.out.println(n/m);
-		System.out.println(n%m);
-		System.out.println(x+n);
-		System.out.println(y/m);
-		System.out.println(y%m);
-		System.out.println(x*2 + " - " + y*2 + " - " + n*2 + " - " + m*2);
-		System.out.println(n+m+y+x);
-		System.out.println(n*m*x*y);
+		final int X = 8;
+		final int Y = 6;
+		final double N = 3.45;
+		final double M = 12.50;
+		System.out.println(X+Y);
+		System.out.println(X-Y);
+		System.out.println(X*Y);
+		System.out.println(X/Y);
+		System.out.println(X%Y);
+		System.out.println(N+M);
+		System.out.println(N-M);
+		System.out.println(N*M);
+		System.out.println(N/M);
+		System.out.println(N%M);
+		System.out.println(X+N);
+		System.out.println(Y/M);
+		System.out.println(Y%M);
+		System.out.println(X*2 + " - " + Y*2 + " - " + N*2 + " - " + M*2);
+		System.out.println(N+M+Y+X);
+		System.out.println(N*M*X*Y);
 	}
 }
